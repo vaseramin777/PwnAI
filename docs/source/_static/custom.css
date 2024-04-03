@@ -1,13 +1,26 @@
-/* Have contents take up entire browser window width. */
+/*-----------------------------------
+Header section customization
+-----------------------------------*/
+
+/* This rule sets the maximum width of the .wy-nav-content element to none,
+which makes its contents take up the entire browser window width. */
 .wy-nav-content {
     max-width: none !important
 }
 
-/* override table width restrictions */
+/*-----------------------------------
+Table section customization
+-----------------------------------*/
+
+/* These rules override the table width restrictions for the .wy-table-responsive
+table's td and th elements. The white-space property is set to normal to allow
+text wrapping within table cells. */
 .wy-table-responsive table td, .wy-table-responsive table th {
     white-space: normal !important;
 }
 
+/* This rule sets the overflow property of the .wy-table-responsive element to
+visible, which allows the table to exceed the boundaries of its container. */
 .wy-table-responsive {
     overflow: visible !important;
 }
