@@ -2,10 +2,10 @@
 # Automated documentation .gitignore files
 ##---------------------------------------------------
 
-# Automatically generated API documentation stubs from sphinx-apidoc
+# Ignore API documentation stubs from sphinx-apidoc
 docs/source/packages
 
-# Automatically converting README from markdown to rST
+# Ignore the output of automatically converting README from markdown to rST
 docs/bin
 docs/source/readme.rst
 docs/source/assets
